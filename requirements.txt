@@ -9,3 +9,6 @@ bs4
 imdbpy==2021.4.18
 #
 telegraph
+
+aiofiles==22.1.0
+aiohttp==3.8.3
