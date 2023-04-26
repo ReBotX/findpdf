@@ -1,10 +1,10 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Pdf4u/old.git /render
+  git clone https://github.com/Pdf4u/old.git /old
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /render
+  git clone $UPSTREAM_REPO /old
 fi
 cd /old
 pip3 install -U -r requirements.txt
