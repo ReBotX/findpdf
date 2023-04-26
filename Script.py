@@ -127,7 +127,7 @@ Total Members = <code>{}</code>
 Added By - {}
 #Pdf4uBot
 """
-    LOG_TEXT_P = """#NewUser
+    LOG_TEXT_P = """#NewUser @PDF4Ubot
 ID - <code>{}</code>
 Name - {}
 #Pdf4uBot
