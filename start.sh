@@ -1,10 +1,10 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/imVipin/findpdf.git /findpdf
+  git clone https://github.com/Pdf4u/old.git /render
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /findpdf
+  git clone $UPSTREAM_REPO /render
 fi
 cd /findpdf
 pip3 install -U -r requirements.txt
