@@ -53,7 +53,7 @@ async def save_group(bot, message):
                         await (temp.MELCOW['welcome']).delete()
                     except:
                         pass
-                temp.MELCOW['welcome'] = await message.reply(f"<b>Hey , {u.mention}, Welcome to {message.chat.title}</b>\n\nസമയം കളയാതെ നിങ്ങൾക്ക് വേണ്ട pdf file ചോദിച്ചോളൂ")
+                temp.MELCOW['welcome'] = await message.reply(f"<b>Hey , {u.mention}, Welcome to {message.chat.title}</b>\n\nസമയം കളയാതെ നിങ്ങൾക്ക് വേണ്ട pdf file ചോദിച്ചോളൂ \n\n<a href=https://telegra.ph/Welcome-to-OnlineStoryLovers-05-03>MUST READ THIS POST BEFORE YOU POST ANYTHING IN THIS GROUP</a>")
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
