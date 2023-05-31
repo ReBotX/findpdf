@@ -17,7 +17,7 @@
     ],
     "website": "https://github.com/EvamariaTG/EvaMaria",
     "repository": "https://github.com/EvamariaTG/EvaMaria",
-    "stack": "heroku-20"
+    "stack": "heroku-20",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
