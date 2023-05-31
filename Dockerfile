@@ -1,5 +1,5 @@
-#FROM python:3.8-slim-buster
-FROM python:3.10
+FROM python:3.8-slim-buster
+#FROM python:3.10
 
 RUN apt update && apt upgrade -y
 RUN apt install git -y
